@@ -10,11 +10,11 @@ This Project has an implementation of resources with multiple features like vers
 This are the request that can be made in Postman:
 
 Get users (GET)
-  localhost:8080/jpa/users
+localhost:8080/jpa/users
 
 Retrieve one user (GET)
-  localhost:8080/jpa/users/{id}
-  localhost:8080/jpa/users/189
+localhost:8080/jpa/users/{id}
+localhost:8080/jpa/users/189
 
 Create user (POST)
   localhost:8080/jpa/users
