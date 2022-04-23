@@ -18,7 +18,7 @@ localhost:8080/jpa/users/189
 
 **Create user (POST)**  
   localhost:8080/jpa/users  
-  Send in Body-raw-json  
+  Send in Body->raw->json  
     {  
       "name": "Joe",  
       "birthDate": "2021-12-10T05:00:00.000+00:00",  
@@ -36,13 +36,24 @@ localhost:8080/jpa/users/189
 **Create post (POST)**  
   localhost:8080/jpa/users/{id}/posts  
   localhost:8080/jpa/users/1001/posts  
-  Send in Body-row-json  
+  Send in Body->row->json  
     {  
       "id": 11001,  
       "description": "My first post"  
     }     
 
 
-Finally, you can use Swagger this way:
+Finally, you can also use these links:
+
+**Documentation**  
+localhost:8080/v2/api-docs
+
+**Hal Browser**  
+localhost:8080/explorer/index.html#uri=/  
+or just  
+localhost:8080
+
+**Actuator**  
+localhost:8080/actuator
 
 The project was developt using Eclipse EE.
