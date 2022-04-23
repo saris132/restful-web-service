@@ -10,38 +10,38 @@ This Project has an implementation of resources with multiple features like vers
 This are the request that can be made in Postman:
 
 Get users (GET)
-http://localhost:8080/jpa/users
+  localhost:8080/jpa/users
 
 Retrieve one user (GET)
-http://localhost:8080/jpa/users/{id}
-http://localhost:8080/jpa/users/189
+  localhost:8080/jpa/users/{id}
+  localhost:8080/jpa/users/189
 
 Create user (POST)
-http://localhost:8080/jpa/users
-Send in Body-raw-json
-  {
-    "name": "Joe",
-    "birthDate": "2021-12-10T05:00:00.000+00:00",
-    "posts": []
-  } 
+  localhost:8080/jpa/users
+  Send in Body-raw-json
+    {
+      "name": "Joe",
+      "birthDate": "2021-12-10T05:00:00.000+00:00",
+      "posts": []
+    }       
 
 Delete user (DELETE)
-http://localhost:8080/jpa/users/{id}
-http://localhost:8080/jpa/users/1003
+  localhost:8080/jpa/users/{id}
+  localhost:8080/jpa/users/1003
 
 Get user posts (GET)
-http://localhost:8080/jpa/users/{id}/posts
-http://localhost:8080/jpa/users/1001/posts
+  localhost:8080/jpa/users/{id}/posts
+  localhost:8080/jpa/users/1001/posts
 
 Create post (POST)
-http://localhost:8080/jpa/users/{id}/posts
-http://localhost:8080/jpa/users/1001/posts
-Send in Body-row-json
-  {
-    "id": 11001,
-    "description": "My first post"
-  }     
+  localhost:8080/jpa/users/{id}/posts
+  localhost:8080/jpa/users/1001/posts
+  Send in Body-row-json
+    {
+      "id": 11001,
+      "description": "My first post"
+    }     
 
 Finally, you can use Swagger this way:
 
-It was developt using Eclipse EE.
+The project was developt using Eclipse EE.
