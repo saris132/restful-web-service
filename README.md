@@ -7,6 +7,8 @@ This Project has an implementation of resources with multiple features like vers
 -	Use a wide variety of spring boot starter projects - spring boot web, spring boot web services, spring boot data jpa.
 -	Can version, monitor (spring boot actuator) and document (swagger).
 
+## Postman
+
 This are the request that can be made in Postman:
 
 **Get users (GET)**   
@@ -47,6 +49,8 @@ localhost:8080/jpa/users/189
       "description": "My first post"  
     }    
  ```
+
+## Other resources
 
 Finally, you can also use these links:
 
