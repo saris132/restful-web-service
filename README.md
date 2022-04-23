@@ -9,38 +9,39 @@ This Project has an implementation of resources with multiple features like vers
 
 This are the request that can be made in Postman:
 
-Get users (GET)  
+**Get users (GET)**   
 localhost:8080/jpa/users
 
-Retrieve one user (GET)  
+**Retrieve one user (GET)**  
 localhost:8080/jpa/users/{id}  
 localhost:8080/jpa/users/189
 
-Create user (POST)
-  localhost:8080/jpa/users
-  Send in Body-raw-json
-    {
-      "name": "Joe",
-      "birthDate": "2021-12-10T05:00:00.000+00:00",
-      "posts": []
+**Create user (POST)**  
+  localhost:8080/jpa/users  
+  Send in Body-raw-json  
+    {  
+      "name": "Joe",  
+      "birthDate": "2021-12-10T05:00:00.000+00:00",  
+      "posts": []  
     }       
 
-Delete user (DELETE)
-  localhost:8080/jpa/users/{id}
+**Delete user (DELETE)**  
+  localhost:8080/jpa/users/{id}  
   localhost:8080/jpa/users/1003
 
-Get user posts (GET)
-  localhost:8080/jpa/users/{id}/posts
+**Get user posts (GET)**  
+  localhost:8080/jpa/users/{id}/posts  
   localhost:8080/jpa/users/1001/posts
 
-Create post (POST)
-  localhost:8080/jpa/users/{id}/posts
-  localhost:8080/jpa/users/1001/posts
-  Send in Body-row-json
-    {
-      "id": 11001,
-      "description": "My first post"
+**Create post (POST)**  
+  localhost:8080/jpa/users/{id}/posts  
+  localhost:8080/jpa/users/1001/posts  
+  Send in Body-row-json  
+    {  
+      "id": 11001,  
+      "description": "My first post"  
     }     
+
 
 Finally, you can use Swagger this way:
 
