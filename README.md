@@ -19,11 +19,14 @@ localhost:8080/jpa/users/189
 **Create user (POST)**  
   localhost:8080/jpa/users  
   Send in Body->raw->json  
+  
+ ```
     {  
       "name": "Joe",  
       "birthDate": "2021-12-10T05:00:00.000+00:00",  
       "posts": []  
-    }       
+    }  
+  ```
 
 **Delete user (DELETE)**  
   localhost:8080/jpa/users/{id}  
@@ -37,11 +40,13 @@ localhost:8080/jpa/users/189
   localhost:8080/jpa/users/{id}/posts  
   localhost:8080/jpa/users/1001/posts  
   Send in Body->row->json  
+  
+ ```
     {  
       "id": 11001,  
       "description": "My first post"  
-    }     
-
+    }    
+ ```
 
 Finally, you can also use these links:
 
